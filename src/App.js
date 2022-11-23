@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from '../logo.svg';
+import logo from './Images/favicon.ico'
 
 function App() {
   return (
@@ -18,6 +18,10 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <h1 className="flex justify-center items-center h-screen w-screen text-3xl font-bold underline">
+      Hello world.
+    </h1>
     </div>
   );
 }
