@@ -1,8 +1,8 @@
 //import Link from 'next/link'
 //import Image from 'next/image'
 import React from "react";
-//import { BrowserRouter, Routes, Route} from "react-router-dom";
-//import Blog from '../pages/blog.js'
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Blog from '../pages/blog.js'
 //import Blogs from "./pages/logs";
 //import { BrowserRouter, Routes, Route } from "react-router-dom";
 import gitIogo from '../Images/github.svg';
@@ -19,8 +19,11 @@ import '../App.css'
 export default function Nav() {
     return (
         <div>
-           {/*} <BrowserRouter>
-            <Routes> */}
+            <BrowserRouter>
+            <Routes>
+            <Route path="/blog" element={ <Blog /> } /> 
+            </Routes>
+            </BrowserRouter>     
                 
             <nav className='w-full  bg-sky-100 shadow-lg border-gray-400 border-b-2'>
               <div className="container flex flex-wrap h-24 md:h-12 lg:h-12 justify-between items-center mx-auto">
@@ -36,11 +39,11 @@ export default function Nav() {
                             <a href='/'>Home</a>
                         </li>
                         <li className='px-2 md:px-4 text-gray-700 hover:text-gray-500 hover:underline'>
-                            <a href='/blog'>Blog</a>
-                         {/*}   <Route path="/blog" element={ <Blog /> } /> */}
+                            <a href='/blog'>Blog <Blog /> </a>
+                         {/*}  <Route path="/blog" element={ <Blog /> } /> */}
                         </li>
                         <li className='px-2 md:px-4  text-gray-700 hover:text-gray-500 hover:underline'>
-                            <a href='/divPage'>Div</a>
+                            <a href='http://localhost:3000/divPage'>Div</a>
                         </li>
 
                         <li className='px-2 md:px-4'>
@@ -66,8 +69,8 @@ export default function Nav() {
               </div>
             </nav> 
             
-          {/*}  </Routes>
-            </BrowserRouter>     */}          
+         {/*  </Routes>
+            </BrowserRouter>   */}           
         </div>
     )
 }

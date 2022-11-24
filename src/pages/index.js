@@ -1,4 +1,4 @@
-import Head from 'next/head'
+//import Head from 'next/head'
 import Image from 'next/image'
 import articleStyles from '../styles/Article.module.css'
 //import Time from './dateTime.js'
@@ -29,13 +29,13 @@ console.log(articles);
   return (
     <div className='scroll-smooth'>
       {/*<html lang='en'/>  //Caused hydration errors*/}
-       <Head> 
+     {/*}  <Head> 
         <title>SwearJar</title>
         <meta charSet='utf-8' />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name='keywords' content='nextjs, react, web apps, web site, programming, front end'/>
       </Head>
-
+  */}
       <article className='bg-slate-200 text-center'>
         <h1 className="text-4xl font-bold m-4 p-4"> Building Swearjar website with Nextjs</h1>
 

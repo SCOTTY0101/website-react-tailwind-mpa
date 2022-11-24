@@ -1,12 +1,14 @@
-import Head from 'next/head'
+//import Head from 'next/head'
 //import NavStyles from '../styles/Nav.module.css'
+import React from "react"
 
 export default function divPage() {
     return (
         <div>
-            <Head>
+          {/*}  <Head>
                 <title>Div Page</title>
             </Head>
+    */}
             <div>
                 <div className='flex h-screen w-screen justify-center items-center'>
                 {/*<h1 className={NavStyles.centerDiv}>DIV</h1> 

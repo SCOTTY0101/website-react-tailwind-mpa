@@ -3,17 +3,18 @@ import ReactDOM from 'react-dom/client';
 //import './index.css';
 import App from './App';
 import Nav from './components/Nav.js'
-import Blog from '../src/pages/blog.js'
+//import Blog from '../src/pages/blog.js'
+import Div from '../src/pages/divPage.js'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <>
+   
     <Nav />
-    <Blog />
+    <Div />
     <App />
-    </>
+    
   </React.StrictMode>
 );
 
