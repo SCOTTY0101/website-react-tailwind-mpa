@@ -3,7 +3,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Blog from '../pages/blog.js'
-//import Blogs from "./pages/logs";
 //import { BrowserRouter, Routes, Route } from "react-router-dom";
 import gitIogo from '../Images/github.svg';
 import linkedinLogo from '../Images/linkedin.svg';
@@ -21,7 +20,7 @@ export default function Nav() {
         <div>
             <BrowserRouter>
             <Routes>
-            <Route path="/blog" element={ <Blog /> } /> 
+           {/*} <Route path="/blog" element={ <Blog /> } /> */}
             </Routes>
             </BrowserRouter>     
                 
@@ -39,7 +38,7 @@ export default function Nav() {
                             <a href='/'>Home</a>
                         </li>
                         <li className='px-2 md:px-4 text-gray-700 hover:text-gray-500 hover:underline'>
-                            <a href='/blog'>Blog <Blog /> </a>
+                            <a href='/blog'>Blog </a>
                          {/*}  <Route path="/blog" element={ <Blog /> } /> */}
                         </li>
                         <li className='px-2 md:px-4  text-gray-700 hover:text-gray-500 hover:underline'>

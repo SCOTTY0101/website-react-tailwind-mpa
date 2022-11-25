@@ -15,17 +15,8 @@ import tailwindLogo from '../public/Images/tailwindLogo.svg'
 //import { time } from 'console'
 //import ids from './article/[id]/index.js'
 
-export default function Home({}) {
-  {/*test articles in console log
-console.log(articles);
-//Removed test code. 
- {articles.map( (article) => (
-      <>
-      <h3> Testing js map </h3>
-        <p key ={article.title}>{article.title}</p> 
-        </> 
-      ))}
-// Home({articles})*/}
+export default function Home() {
+
   return (
     <div className='scroll-smooth'>
       {/*<html lang='en'/>  //Caused hydration errors*/}
