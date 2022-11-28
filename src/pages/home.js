@@ -1,17 +1,19 @@
 //import Head from 'next/head'
-import Image from 'next/image'
-import articleStyles from '../styles/Article.module.css'
+//import Image from 'next/image'
+//import articleStyles from '../styles/Article.module.css'
 //import Time from './dateTime.js'
-import bne from '../public/Images/SouthBank30-12-21.jpeg'
-import awsLogo from '../public/Images/cloud.svg'
-import reactLogo from '../public/Images/reactImg.ico'
-import ball8Logo from '../public/Images/ball.png'
-import SJsponceLogo from '../public/Images/favicon-32x32.png'
+import bne from '../Images/southBankSunSet.jpeg'
+
+import awsLogo from '../Images/cloud.svg'
+import reactLogo from '../Images/reactImg.ico'
+import ball8Logo from '../Images/ball.png'
+import SJsponceLogo from '../Images/favicon-32x32.png'
+
 //import Magic from '../pages/magicBall.ts'
 
 //import Magic from '../pages/magicButton.js'
-import nextLogo from '../public/Images/next.png'
-import tailwindLogo from '../public/Images/tailwindLogo.svg'
+import nextLogo from '../Images/next.png'
+import tailwindLogo from '../Images/tailwindLogo.svg'
 //import { time } from 'console'
 //import ids from './article/[id]/index.js'
 
@@ -51,7 +53,7 @@ export default function Home() {
               <b className='m-2'> Click on the cloud to visit AWS console.</b>
               <button className='hover:opacity-60'><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer"
                 className='hover:opacity-70'>
-                <Image className={articleStyles.awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a>
+                <img className={awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a>
               </button>
             </div>
           </div>
@@ -64,15 +66,15 @@ export default function Home() {
       <div className=""> 
         <div className="flex bg-slate-300 px-4 py-2 shadow-lg justify-around item-center sm:text-left"> 
           <a className='flex justify-center item-center hover:opacity-70' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-            <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
+            <img className={reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
           </a>
 
         <a className='border-x-2 px-6 md:px-32 border-slate-400 hover:opacity-70' href='https://nextjs.org' target="_blank" rel="noopener noreferrer">
-        <Image className='' src={nextLogo}  alt="Nextjs logo" height="64" width="64"/>
+        <img className='' src={nextLogo}  alt="Nextjs logo" height="64" width="64"/>
         </a>
 
           <a className='hover:opacity-70' href='https://tailwindcss.com' target="_blank" rel="noopener noreferrer">
-          <Image className='' src={tailwindLogo}  alt="Tailwind logo" height="64" width="64"/>
+          <img className='' src={tailwindLogo}  alt="Tailwind logo" height="64" width="64"/>
           </a>
 
         </div>               
@@ -87,7 +89,7 @@ export default function Home() {
       </div>        
     </article>
     <div>
-      <Image src={bne} id="bne" alt="Brisbane Christmas sunset" height="" width="" />
+      <img className='{bne}' src={bne} id="bne" alt="Brisbane Christmas sunset" height="" width="" />
     </div>
 
     <hr />
@@ -99,7 +101,7 @@ export default function Home() {
         </h2>
         <div className='flex justify-center h-68 md:h-44 lg:h-44 xl:h-44 2xl:h-44'>
           <div className='block bg-white rounded-lg shadow-lg w-1/2 md:w-1/3 lg:w-1/3 p-4'>
-            <Image className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
+            <img className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
           <h3 className="">Magic Decision ball</h3>
             <button 
             className='bg-slate-200 border-2 border-slate-700 rounded-xl px-2 ' >
@@ -124,7 +126,7 @@ export default function Home() {
         <div className='flex justify-center item-center w-full'>
             <div className='flex items-center'>
               <p className=' flex text-md m-2'>Sponsors & Website credits :</p>
-                <Image src={SJsponceLogo} alt="sJs" height="32" width="32"/>
+                <img src={SJsponceLogo} alt="sJs" height="32" width="32"/>
             </div>
         </div>
           {/*<Time /> */}

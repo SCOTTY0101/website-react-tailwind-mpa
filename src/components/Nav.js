@@ -1,31 +1,49 @@
 //import Link from 'next/link'
 //import Image from 'next/image'
 import React from "react";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Blog from '../pages/blog.js'
+//import { Link } from 'react-router';
+//import { BrowserRouter, Routes, Route} from "react-router-dom";
+//import Blog from '../pages/blog.js';
 //import { BrowserRouter, Routes, Route } from "react-router-dom";
 import gitIogo from '../Images/github.svg';
 import linkedinLogo from '../Images/linkedin.svg';
-import SJnavLogo from '../Images/favicon.ico'
-import twitterLogo from '../Images/twitter copy.svg'
+import SJnavLogo from '../Images/favicon.ico';
+import twitterLogo from '../Images/twitter copy.svg';
+
+//import { Routes, Route } from 'react-router-dom';
+import Home from  '../pages/home.js'
+import Blog from '../pages/blog.js'
+import Div from '../pages/divPage.js'
 
 //import styles from '../styles/Nav.module.css'
 
 import '../App.css'
+//import Home from "../pages/home.js";
 //className={styles.nav}
 
 
-export default function Nav() {
+export default function Navbar() {
+
     return (
         <div>
-            <BrowserRouter>
-            <Routes>
-           {/*} <Route path="/blog" element={ <Blog /> } /> */}
+            
+   
+          {/*}  <Routes>
+                <Route path='/' element={ <Home />  } />
+                <Route path='/blog' element={ <Blog /> } />
+                <Route path='/DivPage' element={ <DivPage /> } />
             </Routes>
-            </BrowserRouter>     
-                
+    */}
             <nav className='w-full  bg-sky-100 shadow-lg border-gray-400 border-b-2'>
               <div className="container flex flex-wrap h-24 md:h-12 lg:h-12 justify-between items-center mx-auto">
+
+           {/*        <Routes>
+                <Route path='/' element={ <Home />  } />
+                <Route path='/blog' element={ <Blog /> } />
+                <Route path='/DivPage' element={ <DivPage /> } />
+            </Routes>
+
+*/}
                     <div className='flex pl-2 justify-center items-center'>
                     <a href='/'>
                         <img  src={SJnavLogo} alt="sJs" width='36' height='36'/> 
@@ -38,11 +56,11 @@ export default function Nav() {
                             <a href='/'>Home</a>
                         </li>
                         <li className='px-2 md:px-4 text-gray-700 hover:text-gray-500 hover:underline'>
-                            <a href='/blog'>Blog </a>
-                         {/*}  <Route path="/blog" element={ <Blog /> } /> */}
+                            <a href='/blog'>Blog  
+                            </a>
                         </li>
                         <li className='px-2 md:px-4  text-gray-700 hover:text-gray-500 hover:underline'>
-                            <a href='http://localhost:3000/divPage'>Div</a>
+                            <a href='/div'>Div</a>
                         </li>
 
                         <li className='px-2 md:px-4'>
@@ -68,8 +86,8 @@ export default function Nav() {
               </div>
             </nav> 
             
-         {/*  </Routes>
-            </BrowserRouter>   */}           
+          {/*} </Routes>
+            </BrowserRouter>  */}          
         </div>
     )
 }

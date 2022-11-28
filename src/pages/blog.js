@@ -3,7 +3,7 @@ import React from "react"
 //import DivStyles from '../styles/blog.module.css'
 
 
-export default function blog() {
+export default function Blog() {
     return (
        <div>
           {/*}  <Head>

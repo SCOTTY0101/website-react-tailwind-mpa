@@ -2,7 +2,7 @@
 //import NavStyles from '../styles/Nav.module.css'
 import React from "react"
 
-export default function divPage() {
+export default function Div() {
     return (
         <div>
           {/*}  <Head>
