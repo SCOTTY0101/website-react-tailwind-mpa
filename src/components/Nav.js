@@ -1,8 +1,8 @@
 //import Link from 'next/link'
 //import Image from 'next/image'
 import React from "react";
-//import { Link } from 'react-router';
-//import { BrowserRouter, Routes, Route} from "react-router-dom";
+//import { Link } from 'react-router-dom';
+//import { Routes, Route} from "react-router-dom";
 //import Blog from '../pages/blog.js';
 //import { BrowserRouter, Routes, Route } from "react-router-dom";
 import gitIogo from '../Images/github.svg';
@@ -11,9 +11,9 @@ import SJnavLogo from '../Images/favicon.ico';
 import twitterLogo from '../Images/twitter copy.svg';
 
 //import { Routes, Route } from 'react-router-dom';
-import Home from  '../pages/home.js'
-import Blog from '../pages/blog.js'
-import Div from '../pages/divPage.js'
+import '../pages/home.js'
+import '../pages/blog.js'
+import '../pages/divPage.js'
 
 //import styles from '../styles/Nav.module.css'
 
@@ -28,10 +28,10 @@ export default function Navbar() {
         <div>
             
    
-          {/*}  <Routes>
-                <Route path='/' element={ <Home />  } />
-                <Route path='/blog' element={ <Blog /> } />
-                <Route path='/DivPage' element={ <DivPage /> } />
+         {/*} <Routes>
+                <Route path='/' element={ Home   } />
+                <Route path='/blog' element={ Blog  } />
+                <Route path='/div' element={ Div  } />
             </Routes>
     */}
             <nav className='w-full  bg-sky-100 shadow-lg border-gray-400 border-b-2'>
@@ -55,10 +55,12 @@ export default function Navbar() {
                         <li className='px-2 md:px-4 text-gray-700 hover:text-gray-500 hover:underline'>
                             <a href='/'>Home</a>
                         </li>
+                       
                         <li className='px-2 md:px-4 text-gray-700 hover:text-gray-500 hover:underline'>
                             <a href='/blog'>Blog  
                             </a>
                         </li>
+                       
                         <li className='px-2 md:px-4  text-gray-700 hover:text-gray-500 hover:underline'>
                             <a href='/div'>Div</a>
                         </li>
