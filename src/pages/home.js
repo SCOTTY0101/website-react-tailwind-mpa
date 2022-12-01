@@ -99,16 +99,20 @@ export default function Home() {
         <h2 className='text-2xl m-4'>
         Testing React/Nextjs and JavaScript via DOM
         </h2>
+
         <div className='flex justify-center h-68 md:h-44 lg:h-44 xl:h-44 2xl:h-44'>
-          <div className='block bg-white rounded-lg shadow-lg w-1/2 md:w-1/3 lg:w-1/3 p-4'>
+          <div className='flex flex-col justify-center items-center bg-white rounded-lg shadow-lg w-1/2 md:w-1/3 lg:w-1/3 p-4'>
+            <div className="justify-center items-center">
             <img className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
-          <h3 className="">Magic Decision ball</h3>
-            <button 
-            className='bg-slate-200 border-2 border-slate-700 rounded-xl px-2 ' >
+            </div>
+              <h3 className="">Magic Decision ball</h3>
+            <button className='bg-slate-200 border-2 border-slate-700 rounded-xl px-2' >
             Ask a question and click for an answer</button>
             <p>UNDER TESTING</p>
           </div> 
+          
         </div>
+        
 
         <p className='m-2 p-2'>Server sponcership available with PayPal to have credits added to the website.</p>      
            <div className='flex justify-center items-center m-2 p-2'>
