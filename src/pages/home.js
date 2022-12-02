@@ -73,7 +73,7 @@ export default function Home() {
         <img className='' src={nextLogo}  alt="Nextjs logo" height="64" width="64"/>
         </a>
 
-          <a className='hover:opacity-70' href='https://tailwindcss.com' target="_blank" rel="noopener noreferrer">
+          <a className='pt-4 hover:opacity-70' href='https://tailwindcss.com' target="_blank" rel="noopener noreferrer">
           <img className='' src={tailwindLogo}  alt="Tailwind logo" height="64" width="64"/>
           </a>
 
