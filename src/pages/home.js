@@ -2,6 +2,7 @@
 //import Image from 'next/image'
 //import articleStyles from '../styles/Article.module.css'
 //import Time from './dateTime.js'
+import Magic from './magicButton.js'
 import bne from '../Images/southBankSunSet.jpeg'
 
 import awsLogo from '../Images/cloud.svg'
@@ -105,9 +106,9 @@ export default function Home() {
             <div className="justify-center items-center">
             <img className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
             </div>
-              <h3 className="">Magic Decision ball</h3>
-            <button className='bg-slate-200 border-2 border-slate-700 rounded-xl px-2' >
-            Ask a question and click for an answer</button>
+              <h3 className="">Magic "Decision ball</h3>
+            <button id='magic' className=' bg-slate-200 border-2 border-slate-700 rounded-xl px-2' onClick={Magic} >
+            Ask a question and click for an answer?</button>
             <p>UNDER TESTING</p>
           </div> 
           
