@@ -51,7 +51,7 @@ const Navbar =() => {
                            
                         </li>
                         
-                        <li className='px-2 md:px-4'>
+                        <li className='pt-1 px-2 md:px-4'>
                             <a  className='flex justify-center items-center hover:opacity-70' href="https://twitter.com/AlanGeorge_BNE" target="_blank" rel="noopener noreferrer" title="twitter icons">
                                 <img src={twitterLogo} alt="twitter logo"></img> 
                             </a>
