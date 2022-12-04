@@ -70,12 +70,12 @@ function Magic() {
         const btn = document.querySelector('#magic');
 
         function updateButton() {
-            if (btn.textContent === 'Ask a question and click for an answer?') {
+            if (btn.textContent === 'Click Answer?') {
                 return btn.textContent = reply;
             } else if ( btn.textContent === reply) {
-                return btn.textContent = 'Ask a question and click for an answer?';
+                return btn.textContent = 'Click Answer?';
             } else {
-               return btn.textContent = 'Ask a question and click for an answer?'
+               return btn.textContent = 'Click Answer?'
             }
         }
         updateButton();

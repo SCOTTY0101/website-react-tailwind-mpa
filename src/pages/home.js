@@ -106,16 +106,16 @@ export default function Home() {
             <div className="justify-center items-center">
             <img className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
             </div>
-              <h3 className="">Magic "Decision ball</h3>
-            <button id='magic' className=' bg-slate-200 border-2 border-slate-700 rounded-xl px-2' onClick={Magic} >
-            Ask a question and click for an answer?</button>
+              <h3 className="">Magic Decision ball</h3>
+            <button id='magic' className=' bg-slate-200 border-2 border-slate-700 rounded-xl px-2' onClick={Magic}>
+            Click Answer?</button>
             <p>UNDER TESTING</p>
           </div> 
           
         </div>
         
 
-        <p className='m-2 p-2'>Server sponcership available with PayPal to have credits added to the website.</p>      
+        <p className='m-2 p-2'>Server sponcership available below with PayPal to have credits added to the website.</p>      
            <div className='flex justify-center items-center m-2 p-2'>
             <form className='flex justify-center items-center' action="https://www.paypal.com/donate" method="post" target="_top" >
               <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
