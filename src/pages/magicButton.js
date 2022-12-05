@@ -1,13 +1,17 @@
-//import React, { useState, useEffect } from 'react'
-//import { ReactDOM } from 'react';
+import React from 'react'
+import { useState } from 'react'
+import { ReactDOM } from 'react';
 
-/*
+
 function Magic() {
 
    // let [decision, setDecision] = useState('Ask a question and click for an answer?')
-   const [reply, setAnswer] = useState(0);
+   //const [reply, setAnswer] = useState(0);
+   //const btnEight = document.getElementById('eightBall')
+    const element = React.createElement( 'eightBall', {
 
-  const answer  = [  
+    })
+    const [answer]  = useState( [  
                         'Yes', 
                         'No', 
                         'Outlook not so certain',
@@ -20,34 +24,29 @@ function Magic() {
                         'Most likely',
                         'It will happen',
                         'Very doubtful'
-                    ];
-        //const [reply, setAnswer] = useState(0);
-
-        const randomAnswer = e => {
-           // const len = answer.length;
-           setAnswer( Math.floor( Math.random() * 12 ));
-        }  
-   
-
-
-   
-    function updateButton() {
-         const btn = document.querySelector('#magic');
-        if (btn.textContent === 'Ask a question and click for an answer?') {
-            return btn.textContent = reply;
-        } else if ( btn.textContent === reply) {
-            return btn.textContent = 'Ask a question and click for an answer?';
-        } else {
-            return btn.textContent = 'Ask a question and click for an answer?'
-        }
-    }
-    updateButton();
-    
+                    ])
+       return (
+        <>
+    <div>
+        {answer.map( (ans, index)=>
+            (<p key={index}>{ans}</p>)
+        )}
+        </div>
+        </>
+       )
 }
 
 export default Magic
 
-*/
+
+
+
+
+
+
+
+/*
+//This code works so leave it alone!!!
 
 
 function Magic() {
@@ -85,3 +84,4 @@ function Magic() {
 
 export default Magic
 
+*/
