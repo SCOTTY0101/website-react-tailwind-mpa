@@ -28,9 +28,11 @@ function Magic() {
        return (
         <>
     <div>
+        {/*}
         {answer.map( (ans, index)=>
             (<p key={index}>{ans}</p>)
         )}
+        */}
         </div>
         </>
        )
