@@ -45,7 +45,7 @@ export default function Home() {
             <p> Cloud hosted on AWS (Amazon Web Services).</p> 
             <p>AWS Route 53 and S3 storage bucket used to run the stactic webpage.</p>   
             <p>Running on HTTPS (SSL) secure connection on port 443.</p> 
-            <p>In 2022, new features will be added and tested.</p>
+            <p>In 2023, new features will be added and tested.</p>
        
 
         <br /> 
@@ -117,7 +117,7 @@ export default function Home() {
 
         <p className='m-2 p-2'>Server sponcership available below with PayPal to have credits added to the website.</p>      
            <div className='flex justify-center items-center m-2 p-2'>
-            <form className='flex justify-center items-center hover:opacity-90' action="https://www.paypal.com/donate" method="post" target="_top" >
+            <form className='flex justify-center items-center hover:opacity-90 ' action="https://www.paypal.com/donate" method="post" target="_top" >
               <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
               <input type="hidden" name="no_recurring" value="0" />
               <input type="hidden" name="item_name" value="Website donation to help pay the server running costs." />
