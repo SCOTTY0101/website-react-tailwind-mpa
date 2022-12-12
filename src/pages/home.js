@@ -96,8 +96,8 @@ export default function Home() {
     <hr />
 
     <article className='bg-gray-200 text-center border-b-2 border-slate-400'>
-      <div className="my-2">
-        <h2 className='text-2xl m-4'>
+      <div className="my-4">
+        <h2 className='text-2xl  py-4'>
         Testing React/Nextjs and JavaScript via DOM
         </h2>
 
