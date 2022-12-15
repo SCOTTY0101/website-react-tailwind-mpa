@@ -70,7 +70,7 @@ export default function Home() {
             <img className={reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
           </a>
 
-        <a className='border-x-2 px-6 md:px-32 border-slate-400 hover:opacity-70' href='https://nextjs.org' target="_blank" rel="noopener noreferrer">
+        <a className='border-x-2 px-6 md:px-32 border-slate-400 hover:opacity-60' href='https://nextjs.org' target="_blank" rel="noopener noreferrer">
         <img className='' src={nextLogo}  alt="Nextjs logo" height="64" width="64"/>
         </a>
 
@@ -107,7 +107,7 @@ export default function Home() {
             <img className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
             </div>
               <h3 className="">Magic Decision ball</h3>
-            <button id='eightBall' className=' bg-slate-200 border-2 border-slate-700 rounded-xl px-2' onClick={Magic}>
+            <button id='magic' className=' bg-slate-200 border-2 border-slate-700 rounded-xl px-2' onClick={Magic}>
             Click Answer?</button>
             <p>UNDER TESTING</p>
           </div> 

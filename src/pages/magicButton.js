@@ -1,8 +1,8 @@
-import React from 'react'
-import { useState } from 'react'
-import { ReactDOM } from 'react';
+//import React from 'react'
+//import { useState } from 'react'
+//import { ReactDOM } from 'react';
 
-
+/*
 function Magic() {
 
    // let [decision, setDecision] = useState('Ask a question and click for an answer?')
@@ -28,17 +28,18 @@ function Magic() {
        return (
         <>
     <div>
-        {/*}
+    
         {answer.map( (ans, index)=>
             (<p key={index}>{ans}</p>)
         )}
-        */}
+        
         </div>
         </>
        )
 }
 
-export default Magic
+export default Magic 
+*/
 
 
 
@@ -47,7 +48,6 @@ export default Magic
 
 
 
-/*
 //This code works so leave it alone!!!
 
 
@@ -86,4 +86,3 @@ function Magic() {
 
 export default Magic
 
-*/
