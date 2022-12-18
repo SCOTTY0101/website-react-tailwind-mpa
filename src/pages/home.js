@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className='scroll-smooth'>
       {/*<html lang='en'/>  //Caused hydration errors*/}
-     {/*}  <Head> 
+     {/* <Head> 
         <title>SwearJar</title>
         <meta charSet='utf-8' />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -124,7 +124,9 @@ export default function Home() {
               <input type="hidden" name="currency_code" value="AUD" />
               <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" 
                 border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-             {/* <img alt="Donate" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1"></img> */}  
+
+             {/* <img alt="Donate" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1"></img> */}
+               
             </form>
           </div>
 
