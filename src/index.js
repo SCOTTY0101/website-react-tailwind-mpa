@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Footer from '../src/components/footer.js'
+import Blog from './pages/blog.js'
+import Div from './pages/divPage.js'
 //import './index.css';
 
 import App from './App';
@@ -10,6 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <App />
+      <Blog />
+      <Div />
       <Footer />
   </React.StrictMode>
 );
