@@ -27,7 +27,7 @@ export default function Blog() {
                         <div className='bg-sky-100 rounded-lg border-2 border-slate-800'>
                         <h3 className='font-bold underline p-2'>Why do I code?</h3>
                         <p className='p-2'>
-                        It gives you the ability to think and how to break down problems to solve them.
+                        It gives you the ability to think and how to break down problems and solve them.
                         I enjoy the programming software challenges.
                         </p>
                         </div>
