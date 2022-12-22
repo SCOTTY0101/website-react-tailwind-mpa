@@ -19,7 +19,8 @@ export default function Blog() {
                         A self-taught, Front-end developer, who works part-time on my own projects or open source.
                         In 2018, I was working for a company and got interested in how hardware and software interact together (Embedded systems). 
                         That was an introduction to Arduino Uno and The C language (Dennis Ritchie). 
-                        After six months of learning to code, I came across JavaScript, HTML and CSS. In 2019 I started writing Front-end code.
+                        After six months of learning to program, I came across JavaScript, HTML and CSS. In 2019 I started writing Front-end code.
+                        My journey has continued through Computer Science learning a bit from a byte, zero basic maths and how all computers use binary.
                         My LinkedIn and Github links are in the Navbar.
                         </p>
                         </div>
@@ -27,8 +28,8 @@ export default function Blog() {
                         <div className='bg-sky-100 rounded-lg border-2 border-slate-800'>
                         <h3 className='font-bold underline p-2'>Why do I code?</h3>
                         <p className='p-2'>
-                        It gives you the ability to think and how to break down problems and solve them.
-                        I enjoy the programming software challenges.
+                        It gives you the ability to think, how to break down problems and how to solve them.<br />
+                        I enjoy challenges of working with pseudocode, algorithms and data structures.
                         </p>
                         </div>
 
