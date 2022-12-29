@@ -40,7 +40,7 @@ export default function Blog() {
                         Want to work Frontend with Web or Mobile {"App's"}?
                         Try React, Nextjs or React Native.
                         Need files or data to the client-side or servers? JSON.  Back-end code with {"API's"}? NodeJS.
-                        In need of Database storage, then try MongoDB.
+                        In need of Database, then try MongoDB.
                         </p>
                         </div>
                         
