@@ -13,7 +13,7 @@ export default function Blog() {
               <h1 className='flex justify-center items-center text-4xl py-2 min-w-min'>My Blog</h1>
                 
                     <article className='grid grid-cols-1 grid-rows-1 md:grid-cols-2  md:grid-rows-2 gap-4 p-4'>
-                        <div className='bg-yellow-100  rounded-md border-2 border-slate-800'>
+                        <div className='bg-sky-200  rounded-md border-2 border-slate-800'>
                         <h3 className='font-bold underline p-2'>Who am I and what do I do?</h3>
                         <p className='p-2'>
                         A self-taught, Front-end developer, who works part-time on my own projects or open source.
@@ -44,7 +44,7 @@ export default function Blog() {
                         </p>
                         </div>
                         
-                        <div className='bg-yellow-100 rounded-md border-2 border-slate-800'>
+                        <div className='bg-sky-200 rounded-md border-2 border-slate-800'>
                         <h3 className='font-bold underline p-2'>Why the name “SwearJar”?</h3>
                         <p className='p-2'>
                         If anyone has tried their hand at coding, it comes from the challenges of writing clean code, that is bug free and works.
