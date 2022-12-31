@@ -16,7 +16,7 @@ export default function Blog() {
                         <div className='bg-sky-200  rounded-md border-2 border-slate-800'>
                         <h3 className='font-bold underline p-2'>Who am I and what do I do?</h3>
                         <p className='p-2'>
-                        A self-taught, Front-end developer, who works part-time on my own projects or open source.
+                        I am a self-taught, Front-end developer, who works part-time on my own projects or open source.
                         In 2018, I was working for a company and got interested in how hardware and software interact together (Embedded systems). 
                         That was an introduction to Arduino Uno and The C language (Dennis Ritchie). 
                         After six months of learning to program, I came across JavaScript, HTML and CSS. In 2019 I started writing Front-end code.
