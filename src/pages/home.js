@@ -50,12 +50,14 @@ export default function Home() {
 
         <br /> 
           <div className='flex justify-center items-center'>
-            <div className='flex-col bg-sky-100 w-1/4 border-2 rounded-2xl border-gray-500 shadow-2xl'>
-              <b className='m-2'> Click on the cloud to visit AWS console.</b>
-              <button className='hover:opacity-60'><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer"
+            <div className='flex-col bg-sky-100 w-1/6 border-2 rounded-2xl border-gray-500 shadow-2xl'>
+              <button className='hover:opacity-60 '> AWS
+                <a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer"
                 className='hover:opacity-70'>
-                <img className={awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a>
+                <img className={awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" />
+                </a>
               </button>
+
             </div>
           </div>
         <br />
