@@ -20,7 +20,7 @@ export default function Blog() {
                         In 2018, I was working for a company and got interested in how hardware and software interact together (Embedded systems). 
                         That was an introduction to Arduino Uno and The C language (Dennis Ritchie). 
                         After six months of learning to program, I came across JavaScript, HTML and CSS. In 2019 I started writing Front-end code.
-                        My journey has continued through Computer Science and learning a bit from a byte, zero basic maths and how all computers use binary.
+                        My journey has continued through Computer Science and learning a bit from a byte, zero based maths and how all computers use binary.
                         My LinkedIn and Github links are in the Navbar.
                         </p>
                         </div>
