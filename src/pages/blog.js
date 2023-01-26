@@ -52,8 +52,7 @@ export default function Blog() {
                         </p>
                         </div>
                     </article>
-                   <div className='h-44'></div>
-                   
+                   <div className='h-44'></div>    
 
                </div>
         </div>
