@@ -36,7 +36,7 @@ export default function Blog() {
                         <div className='bg-sky-100 rounded-lg border-2 border-slate-800'>
                         <h3 className='font-bold underline p-2'>Why I use JavaScript?</h3>
                         <p className='p-2'>
-                        {"It's"} relatively easy to learn and whither {"it's"} a good or bad a thing, but JavaScript is everywhere.
+                        {"It's"} relatively easy to learn and whither {"it's"} a good or bad, but JavaScript is everywhere.
                         Want to work Frontend with Web or Mobile {"App's"}?
                         Try React, Nextjs or React Native.
                         Need files or data to transfer from the client-side or servers? JSON.  Back-end code with {"API's"}? NodeJS.
