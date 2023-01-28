@@ -37,8 +37,11 @@ export default function Home() {
           <p className='font-bold text-3xl m-2 p-1 border-black'>My web developer portfolio</p>
           <br/>
         <p>Front-end website for production software development and testing. <br />
-        <b>Responsive Web Design and React Router (AWS S3 bucket) is in testing mode. </b><br />
-         View current version via Github Footer link. </p>
+        <b>Responsive Web Design and React Router (AWS S3 bucket) is in testing mode. </b>
+        <br /> 
+         <b>Router page is under server-side: AWS EC2 tesing.</b>
+        <br />
+          View current version via Github Footer link. </p>
          <br />
        
         <p className='p-2 m-2 font-bold'>Tech information:</p>
