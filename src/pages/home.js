@@ -70,19 +70,18 @@ export default function Home() {
 
     <article className='bg-slate-200 text-center mt-2'>
       <div className=""> 
-        <div className="flex bg-slate-300 px-4 py-2 shadow-lg justify-evenly item-center sm:text-left"> 
+        <div className="flex bg-slate-300 px-2 py-2 shadow-lg justify-evenly item-center sm:text-left"> 
           <a className='flex justify-center item-center hover:opacity-70' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
             <img className={reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
           </a>
 
-        <a className='border-x-2 px-4 md:px-32 border-slate-400 hover:opacity-60' href='https://nextjs.org' target="_blank" rel="noopener noreferrer">
-          <img className='' src={nextLogo}  alt="Nextjs logo" height="64" width="64"/>
-        </a>
+          <a className='border-x-2 px-4 md:px-36 border-slate-400 hover:opacity-60' href='https://nextjs.org' target="_blank" rel="noopener noreferrer">
+            <img className='' src={nextLogo}  alt="Nextjs logo" height="64" width="64"/>
+          </a>
 
           <a className='pt-4 px-4 hover:opacity-70' href='https://tailwindcss.com' target="_blank" rel="noopener noreferrer">
             <img className='' src={tailwindLogo}  alt="Tailwind logo" height="64" width="64"/>
           </a>
-
         </div>               
         <p className='mb-2 p-10 leading-relaxed'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <br />
