@@ -85,7 +85,7 @@ export default function Home() {
         </div>               
         <p className='mb-2 p-10 leading-relaxed'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <br />
-        Powered by React/Nextjs and Tailwind. NodeJS(backend code) and MongoDB(database) software is in the development stage.
+        Powered by React/Nextjs and Tailwind. NodeJS(backend code) and MongoDB(database) software are in development.
         <br />
         Test Rendering: SSR (Server-Side Rending), CSR (Client-Side Rendering) and Rehydration.
         <br />
@@ -102,7 +102,7 @@ export default function Home() {
     <article className='bg-gray-200 text-center border-b-2 border-slate-400'>
       <div className="my-4">
         <h2 className='text-2xl  py-4'>
-        Testing React/Nextjs and JavaScript via DOM
+          Testing React/Nextjs and JavaScript via DOM.
         </h2>
 
         <div className='flex justify-center h-68 md:h-44 lg:h-44 xl:h-44 2xl:h-44'>
