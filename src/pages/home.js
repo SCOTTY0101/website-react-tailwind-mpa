@@ -31,7 +31,7 @@ export default function Home() {
       </Head>
   */}
       <article className='bg-slate-200 text-center'>
-        <h1 className="text-4xl font-bold m-4 pt-8 p-4"> Building Swearjar website with React/Nextjs</h1>
+        <h1 className="text-4xl font-bold m-4 pt-8 p-4">Building Swearjar website with React/Nextjs</h1>
 
         <div className='overflow-auto border-2 border-gray-700'>
           <p className='font-bold text-3xl m-2 p-1 border-black'>My web developer portfolio</p>
