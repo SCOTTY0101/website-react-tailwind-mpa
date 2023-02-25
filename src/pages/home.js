@@ -102,7 +102,7 @@ export default function Home() {
     <article className='bg-gray-200 text-center border-b-2 border-slate-400'>
       <div className="my-4">
         <h2 className='text-2xl  py-4'>
-          Testing React/Nextjs and JavaScript via DOM.
+          Testing React/Nextjs and JavaScript via the DOM.
         </h2>
 
         <div className='flex justify-center h-68 md:h-44 lg:h-44 xl:h-44 2xl:h-44'>
@@ -110,7 +110,7 @@ export default function Home() {
             <div className="justify-center items-center">
             <img className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
             </div>
-              <h3 className="">Magic Decision ball</h3>
+              <h3 className="">Magic Decision Ball</h3>
             <button id='magic' className=' bg-slate-200 border-2 border-slate-700 rounded-xl px-2' onClick={Magic}>
             Click Answer?</button>
             <p>UNDER TESTING</p>
@@ -136,7 +136,7 @@ export default function Home() {
 
         <div className='flex justify-center item-center w-full'>
             <div className='flex items-center'>
-              <p className=' flex text-md m-2'>Sponsors & Website credits :</p>
+              <p className=' flex text-md m-2'>Sponsors & Website credits : </p>
                 <img src={SJsponceLogo} alt="sJs" height="32" width="32"/>
             </div>
         </div>
