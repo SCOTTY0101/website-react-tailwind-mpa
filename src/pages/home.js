@@ -39,7 +39,7 @@ export default function Home() {
         <p>Front-end website for production software development and testing. <br />
         <b>Responsive Web Design and React Router (AWS S3 bucket) is in testing mode. </b>
         <br /> 
-         <b>Router page is under server-side: AWS EC2 tesing.</b>
+         <b>Router page is under server-side: AWS EC2 testing.</b>
         <br />
           View current version via Github Footer link. </p>
          <br />

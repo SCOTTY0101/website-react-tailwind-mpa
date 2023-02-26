@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8d25675b.css",
+    "main.js": "/static/js/main.1198aee2.js",
+    "static/js/787.4b8ee52b.chunk.js": "/static/js/787.4b8ee52b.chunk.js",
+    "static/media/southBankSunSet.jpeg": "/static/media/southBankSunSet.6657cb1e3852e400c611.jpeg",
+    "static/media/ball.png": "/static/media/ball.aad62cff6409ad9e9a4a.png",
+    "static/media/favicon.ico": "/static/media/favicon.05d2607b65d86f544b92.ico",
+    "static/media/reactImg.ico": "/static/media/reactImg.4fe75d5f9adb18067b85.ico",
+    "static/media/tailwindLogo.svg": "/static/media/tailwindLogo.50fbcf516b9a3774e9a83272167059ae.svg",
+    "static/media/github.svg": "/static/media/github.218a1db5ac18613e535d0dcf280e5ccc.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.de268f5055019ff686d4cba0d6b90d05.svg",
+    "index.html": "/index.html",
+    "static/media/twitter copy.svg": "/static/media/twitter copy.db226d55c343637e1371fc247b144b51.svg",
+    "static/media/cloud.svg": "/static/media/cloud.6c6927e0bd49f7f20dbf26bc968f0320.svg",
+    "main.8d25675b.css.map": "/static/css/main.8d25675b.css.map",
+    "main.1198aee2.js.map": "/static/js/main.1198aee2.js.map",
+    "787.4b8ee52b.chunk.js.map": "/static/js/787.4b8ee52b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d25675b.css",
+    "static/js/main.1198aee2.js"
+  ]
+}
