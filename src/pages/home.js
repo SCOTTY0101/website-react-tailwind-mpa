@@ -143,7 +143,7 @@ export default function Home() {
           {/*<Time /> */}
           
         </div>
-
+        <p>Blog and Div page below due to routing/link testing.</p>
       <a href='#top' className='text-blue-400  hover:text-blue-300'>Top of page</a>
     </article>
     </div>
