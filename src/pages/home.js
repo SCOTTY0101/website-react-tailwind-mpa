@@ -4,6 +4,7 @@
 //import Time from './dateTime.js'
 import Magic from './magicButton.js'
 import bne from '../Images/southBankSunSet.jpeg'
+//import Blog from '../pages/blog'
 
 import awsLogo from '../Images/cloud.svg'
 import reactLogo from '../Images/reactImg.ico'
