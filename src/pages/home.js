@@ -5,6 +5,7 @@
 import Magic from './magicButton.js'
 import bne from '../Images/southBankSunSet.jpeg'
 //import Blog from '../pages/blog'
+import UsernameForm from './form.js'
 
 import awsLogo from '../Images/cloud.svg'
 import reactLogo from '../Images/reactImg.ico'
@@ -55,7 +56,7 @@ export default function Home() {
         <br /> 
           <div className='flex justify-center items-center'>
             <div className='flex-col bg-sky-100 w-1/6 border-2 rounded-2xl border-gray-500 hover:shadow-xl'>
-              <button className='hover:opacity-80 '> AWS
+              <button className='hover:opacity-80'> AWS
                 <a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer"
                 className='hover:opacity-80'>
                 <img className={awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" />
@@ -99,6 +100,7 @@ export default function Home() {
     </div>
 
     <hr />
+    
 
     <article className='bg-gray-200 text-center border-b-2 border-slate-400'>
       <div className="my-4">
@@ -142,6 +144,7 @@ export default function Home() {
             </div>
         </div>
           {/*<Time /> */}
+          <UsernameForm />
           
         </div>
         <p>Blog and Div page below due to routing/link testing.</p>
