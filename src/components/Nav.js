@@ -8,7 +8,7 @@ import React from "react";
 import gitIogo from '../Images/github.svg';
 import linkedinLogo from '../Images/linkedin.svg';
 import SJnavLogo from '../Images/favicon.ico';
-import twitterLogo from '../Images/twitter copy.svg';
+import twitterXicon from '../Images/xconvert.com.png'
 
 //import { Routes, Route } from 'react-router-dom';
 //import '../pages/home.js'
@@ -53,7 +53,7 @@ const Navbar =() => {
                         
                         <li className='pt-1 px-2 md:px-4'>
                             <a  className='flex justify-center items-center hover:opacity-70' href="https://twitter.com/AlanGeorge_BNE" target="_blank" rel="noopener noreferrer" title="twitter icons">
-                                <img src={twitterLogo} alt="twitter logo"></img> 
+                                <img src={twitterXicon} alt="twitter logo"></img> 
                             </a>
                         </li>
 
