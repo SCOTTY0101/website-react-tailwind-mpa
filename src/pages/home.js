@@ -5,7 +5,8 @@
 import Magic from './magicButton.js'
 import bne from '../Images/southBankSunSet.jpeg'
 //import Blog from '../pages/blog'
-import UsernameForm from './form.js'
+//import UsernameForm from './form.js' // Removed 22 Dec for testing
+
 
 import awsLogo from '../Images/cloud.svg'
 import reactLogo from '../Images/reactImg.ico'
@@ -50,7 +51,7 @@ export default function Home() {
             <p> Cloud hosted on AWS (Amazon Web Services).</p> 
             <p>AWS Route 53 and S3 storage bucket used to run the stactic webpage.</p>   
             <p>Running on HTTPS (SSL) secure connection on port 443.</p> 
-            <p>In 2023, new features will be added and tested.</p>
+            <p>In 2024, new features will be added and tested.</p>
        
 
         <br /> 
@@ -144,7 +145,7 @@ export default function Home() {
             </div>
         </div>
           {/*<Time /> */}
-          <UsernameForm />
+         {/* <UsernameForm />*/}
           
         </div>
         <p>Blog and Div page below due to routing/link testing.</p>
