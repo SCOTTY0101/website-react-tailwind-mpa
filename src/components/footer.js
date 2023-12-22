@@ -16,7 +16,7 @@ export default function footer() {
               <img  src={gitLogo} alt="github click link" height='24' width='24'/>
             </a>
           <div className='flex pb-2'>
-            <p className="text-base px-6"> &copy; SwearJarSoftware 2019-2023. </p>
+            <p className="text-base px-6"> &copy; SwearJarSoftware 2019-2024. </p>
               <img className={SJnavLogo} src={SJnavLogo} alt="sJs" width='16' height='16'/>  
           </div>
           
