@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Footer from '../src/components/footer.js'
-import Blog from './pages/blog.js'
-import Div from './pages/divPage.js'
+//import Blog from './pages/blog.js'
+//import Div from './pages/divPage.js'
 //import './index.css';
 
 import App from './App';
@@ -13,9 +13,7 @@ root.render(
   <React.StrictMode>
       <App />
       <Footer />
-      <Blog />
-      <Div />
-      <Footer />
+     
   </React.StrictMode>
 );
 
@@ -23,3 +21,9 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+//Removed for test 31/12/2023
+// <Blog />
+//<Div />
+//<Footer />

@@ -1,3 +1,4 @@
+import React from 'react';
 //import Head from 'next/head'
 //import Image from 'next/image'
 //import articleStyles from '../styles/Article.module.css'
@@ -117,7 +118,6 @@ export default function Home() {
               <h3 className="">Magic Decision Ball</h3>
             <button id='magic' className=' bg-slate-200 border-2 border-slate-700 rounded-xl px-2' onClick={Magic}>
             Click Answer?</button>
-            <p>UNDER TESTING</p>
           </div> 
           
         </div>
