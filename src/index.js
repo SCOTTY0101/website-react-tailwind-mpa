@@ -1,19 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import NavBar from './components/nav.js'
+import Article from './components/article.js'
 import Footer from '../src/components/footer.js'
-//import Blog from './pages/blog.js'
-//import Div from './pages/divPage.js'
-//import './index.css';
+import Blog from './pages/blog.js'
+import Div from './pages/divPage.js'
+import './index.css';
 
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <App />
+      <NavBar />
+      <Article />
       <Footer />
-     
+      <Blog />
+      <Div />     
   </React.StrictMode>
 );
 
@@ -25,5 +29,6 @@ reportWebVitals();
 
 //Removed for test 31/12/2023
 // <Blog />
+//<App />
 //<Div />
 //<Footer />
