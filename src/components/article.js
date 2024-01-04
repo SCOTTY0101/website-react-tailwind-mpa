@@ -148,7 +148,7 @@ export default function Home() {
           
         </div>
         <p>Blog and Div page below due to routing/link testing.</p>
-      <a href='#top' className='text-blue-400  hover:text-blue-300'>Top of page</a>
+      <a href='#top' className='text-blue-300  hover:text-blue-400'>Return to top</a>
     </article>
     </div>
   )
