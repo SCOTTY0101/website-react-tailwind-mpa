@@ -27,7 +27,7 @@ import '../App.css';
 const Navbar =() => {
     return (
         <>
-            <nav className='w-full  bg-sky-100 shadow-lg border-gray-400 border-b-2'>
+            <nav className='w-full shadow-lg border-gray-200 border-b-2'>
               <div className="container flex flex-wrap h-24 md:h-12 lg:h-12 justify-between items-center mx-auto">
                     <div className='flex pl-2 justify-center items-center'>
                     <a href='/'>
