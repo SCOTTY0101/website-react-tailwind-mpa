@@ -27,7 +27,7 @@ import '../App.css';
 const Navbar =() => {
     return (
         <>
-            <nav className='w-full shadow-lg border-gray-200 border-b-2'>
+            <nav className='w-full shadow-md border-gray-200 border-b-2'>
               <div className="container flex flex-wrap h-24 md:h-12 lg:h-12 justify-between items-center mx-auto">
                     <div className='flex pl-2 justify-center items-center'>
                     <a href='/'>
@@ -53,19 +53,19 @@ const Navbar =() => {
                         </li>
                         
                         <li className='pt-1 px-2 md:px-4'>
-                            <a  className='flex justify-center items-center opacity-70 hover:opacity-90' href="https://twitter.com/AlanGeorge_BNE" target="_blank" rel="noopener noreferrer" title="twitter icons">
+                            <a  className='flex justify-center items-center opacity-80 hover:opacity-100' href="https://twitter.com/AlanGeorge_BNE" target="_blank" rel="noopener noreferrer" title="twitter icons">
                                 <img src={TwitterX} alt="twitter logo"></img>
                             </a>
                         </li>
 
                         <li className='px-2 md:px-4'>
-                            <a className='flex justify-center items-center opacity-70 hover:opacity-90'
+                            <a className='flex justify-center items-center opacity-70 hover:opacity-100'
                                 href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedinLogo} alt="LinkedIn logo"/> 
                             </a>
                         </li>
                         <li className='px-2 md:px-4'>
-                            <a className='flex justify-center items-center opacity-70 hover:opacity-90'
+                            <a className='flex justify-center items-center opacity-70 hover:opacity-100'
                                 href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
                                   <img id="gitIcon" src={gitIogo} alt="github click link"/>
                             </a>
