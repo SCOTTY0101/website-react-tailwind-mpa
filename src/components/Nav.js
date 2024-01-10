@@ -59,21 +59,13 @@ const Navbar =() => {
                         </li>
 
                         <li className='px-2 md:px-4'>
-<<<<<<< HEAD
-                            <a className='flex justify-center items-center opacity-60 hover:opacity-90'
-=======
                             <a className='flex justify-center items-center opacity-70 hover:opacity-100'
->>>>>>> dev
                                 href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedinLogo} alt="LinkedIn logo"/> 
                             </a>
                         </li>
                         <li className='px-2 md:px-4'>
-<<<<<<< HEAD
-                            <a className='flex justify-center items-center opacity-60 hover:opacity-90'
-=======
                             <a className='flex justify-center items-center opacity-70 hover:opacity-100'
->>>>>>> dev
                                 href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
                                   <img id="gitIcon" src={gitIogo} alt="github click link"/>
                             </a>
