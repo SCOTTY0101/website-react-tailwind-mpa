@@ -12,7 +12,7 @@ export default function footer() {
 
           <p className='text-base pt-2'>Click the GitHub icon to view code.</p>
             <a  href="http://www.github.com/SCOTTY0101/website-react-tailwind-mpa" target="_blank" rel="noopener noreferrer"
-            className='m-2 flex justify-center items-center opacity-70 hover:opacity-100'>
+            className='m-2 flex justify-center items-center opacity-70 hover:opacity-100 animate-bounce'>
               <img  src={gitLogo} alt="github click link" height='24' width='24'/>
             </a>
           <div className='flex pb-2'>
