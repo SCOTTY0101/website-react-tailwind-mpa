@@ -10,7 +10,7 @@ export default function Blog() {
             <title>Blog Page</title>
     </Head> */}
             <div className='bg-slate-200'>
-              <h1 className='flex justify-center items-center text-4xl py-2 min-w-min'>My Blog</h1>
+              <h1 className='flex justify-center items-center text-4xl py-2 min-w-min'>BLOG</h1>
                 
                     <article className='grid grid-cols-1 grid-rows-1 md:grid-cols-2  md:grid-rows-2 gap-4 p-4'>
                         <div className='bg-sky-200  rounded-md border-2 border-slate-800'>

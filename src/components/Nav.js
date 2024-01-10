@@ -27,7 +27,7 @@ import '../App.css';
 const Navbar =() => {
     return (
         <>
-            <nav className='w-full  bg-sky-100 shadow-lg border-gray-400 border-b-2'>
+            <nav className='w-full shadow-md border-gray-200 border-b-2'>
               <div className="container flex flex-wrap h-24 md:h-12 lg:h-12 justify-between items-center mx-auto">
                     <div className='flex pl-2 justify-center items-center'>
                     <a href='/'>
@@ -59,13 +59,21 @@ const Navbar =() => {
                         </li>
 
                         <li className='px-2 md:px-4'>
+<<<<<<< HEAD
                             <a className='flex justify-center items-center opacity-60 hover:opacity-90'
+=======
+                            <a className='flex justify-center items-center opacity-70 hover:opacity-100'
+>>>>>>> dev
                                 href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedinLogo} alt="LinkedIn logo"/> 
                             </a>
                         </li>
                         <li className='px-2 md:px-4'>
+<<<<<<< HEAD
                             <a className='flex justify-center items-center opacity-60 hover:opacity-90'
+=======
+                            <a className='flex justify-center items-center opacity-70 hover:opacity-100'
+>>>>>>> dev
                                 href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
                                   <img id="gitIcon" src={gitIogo} alt="github click link"/>
                             </a>

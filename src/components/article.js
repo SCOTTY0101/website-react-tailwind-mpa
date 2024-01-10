@@ -33,11 +33,11 @@ export default function Home() {
         <meta name='keywords' content='nextjs, react, web apps, web site, programming, front end'/>
       </Head>
   */}
-      <article className='bg-slate-200 text-center'>
-        <h1 className="text-4xl font-bold m-4 pt-8 p-4">Building Swearjar website with React/Nextjs</h1>
+      <article className='bg-slate-100 p-2 text-center'>
+        <h1 className="text-4xl font-bold m-2 p-4">Building Swearjar website with React/Nextjs</h1>
 
-        <div className='overflow-auto border-2 border-gray-700'>
-          <p className='font-bold text-3xl m-2 p-1 border-black'>My web developer portfolio</p>
+        <div className='overflow-auto'>
+          <p className='font-bold text-3xl m-2 p-1 border-black'>Developer portfolio</p>
           <br/>
         <p>Front-end website for production software development and testing. <br />
         <b>Responsive Web Design and React Router (AWS S3 bucket) is in testing mode. </b>
@@ -56,7 +56,7 @@ export default function Home() {
 
         <br /> 
           <div className='flex justify-center items-center'>
-            <div className='flex-col bg-sky-100 w-1/6 border-2 rounded-2xl border-gray-500 hover:shadow-xl'>
+            <div className='flex-col bg-sky-100 w-1/6 border-2 rounded-2xl animate-pulse border-gray-500 hover:shadow-md'>
               <button className='hover:opacity-80'> AWS
                 <a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer"
                 className='hover:opacity-80'>
@@ -71,7 +71,7 @@ export default function Home() {
       </div>
     </article>
 
-    <article className='bg-slate-200 text-center mt-2'>
+    <article className='bg-slate-100 text-center mt-2'>
       <div className=""> 
         <div className="flex bg-slate-300 px-2 py-2 shadow-lg justify-evenly item-center sm:text-left"> 
           <a className='flex justify-center item-center hover:opacity-70' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
@@ -103,22 +103,21 @@ export default function Home() {
     <hr />
     
 
-    <article className='bg-gray-200 text-center border-b-2 border-slate-400'>
+    <article className='bg-gray-100 text-center border-b-2 border-slate-400'>
       <div className="my-4">
-        <h2 className='text-2xl  py-4'>
+        <h2 className='text-2xl p-2 py-4'>
           Testing React/Nextjs and JavaScript via the DOM.
         </h2>
 
         <div className='flex justify-center h-68 md:h-44 lg:h-44 xl:h-44 2xl:h-44'>
-          <div className='flex flex-col justify-center items-center bg-white rounded-lg shadow-lg w-1/2 md:w-1/3 lg:w-1/3 p-4'>
+          <div className='flex flex-col justify-center items-center bg-white  rounded-lg shadow-lg w-1/2 md:w-1/3 lg:w-1/3 p-4'>
             <div className="justify-center items-center">
             <img className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
             </div>
               <h3 className="">Magic Decision Ball</h3>
-            <button id='magic' className=' bg-slate-200 border-2 border-slate-700 rounded-xl px-2' onClick={Magic}>
+            <button id='magic' className=' bg-slate-200 border-2 border-slate-700 rounded-xl px-2 animate-pulse' onClick={Magic}>
             Click Answer?</button>
-          </div> 
-          
+          </div>       
         </div>
         
 
@@ -147,8 +146,8 @@ export default function Home() {
          {/* <UsernameForm />*/}
           
         </div>
-        <p>Blog and Div page below due to routing/link testing.</p>
-      <a href='#top' className='text-blue-800  hover:text-blue-400'>Return to top</a>
+        <p className="p-2">Blog and Div page below due to routing/link testing.</p>
+      <a href='#top' className='text-sky-600  hover:text-blue-400'>Return to top</a>
     </article>
     </div>
   )
