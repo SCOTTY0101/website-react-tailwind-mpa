@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import NavBar from './components/nav.js'
 import Article from './components/article.js'
 import Footer from '../src/components/footer.js'
-import Blog from './pages/blog.js'
+//import Blog from './pages/blog.js'
 import Div from './pages/divPage.js'
 import './index.css';
 
@@ -15,9 +15,9 @@ root.render(
   <React.StrictMode>
       <NavBar />
       <Article />
+      <Div />  
       <Footer />
-      <Blog />
-      <Div />     
+      
   </React.StrictMode>
 );
 

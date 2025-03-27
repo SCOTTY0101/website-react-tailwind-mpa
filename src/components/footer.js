@@ -7,7 +7,7 @@ import SJnavLogo from '../Images/favicon.ico'
 export default function footer() {
 
   return (
-      <footer className='w-screen bg-blue-100 text-center flex justify-center'>
+      <footer className='w-screen bg-slate-300 text-center flex justify-center'>
         <div>
 
           <p className='text-base pt-2'>Click the GitHub icon to view code.</p>
@@ -16,7 +16,7 @@ export default function footer() {
               <img  src={gitLogo} alt="github click link" height='24' width='24'/>
             </a>
           <div className='flex pb-2'>
-            <p className="text-base px-6"> &copy; SwearJarSoftware 2019-2024. </p>
+            <p className="text-base px-6"> &copy; SwearJarSoftware 2019-2025. </p>
               <img className={SJnavLogo} src={SJnavLogo} alt="sJs" width='16' height='16'/>  
           </div>
           

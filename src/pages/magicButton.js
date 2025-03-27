@@ -64,7 +64,8 @@ function Magic() {
                             'Outlook looks good',
                             'Most likely',
                             'It will happen',
-                            'Very doubtful'
+                            'Very doubtful',
+                            'It will happen'
                         ];
        let reply = decision[Math.floor(Math.random()* 12)];
 

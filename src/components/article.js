@@ -33,13 +33,13 @@ export default function Home() {
         <meta name='keywords' content='nextjs, react, web apps, web site, programming, front end'/>
       </Head>
   */}
-      <article className='bg-slate-100 p-2 text-center'>
+      <article className='bg-slate-50 p-2 text-center'>
         <h1 className="text-4xl font-bold m-2 p-4">Building Swearjar website with React/Nextjs</h1>
 
         <div className='overflow-auto'>
           <p className='font-bold text-3xl m-2 p-1 border-black'>Developer portfolio</p>
           <br/>
-        <p>Front-end website for production software development and testing. <br />
+        <p>Front-end website for production software development/network testing. <br />
         <b>Responsive Web Design and React Router (AWS S3 bucket) is in testing mode. </b>
         <br /> 
          <b>Router page is under server-side: AWS EC2 testing.</b>
@@ -47,11 +47,13 @@ export default function Home() {
           View current version via Github Footer link. </p>
          <br />
        
-        <p className='p-2 m-2 font-bold'>Tech information:</p>
-            <p> Cloud hosted on AWS (Amazon Web Services).</p> 
+        <p className='p-2 m-2 font-bold'>Network information:</p>
+            <p>Cloud hosted on AWS (Amazon Web Services).</p> 
             <p>AWS Route 53 and S3 storage bucket used to run the stactic webpage.</p>   
-            <p>Running on HTTPS (SSL) secure connection on port 443.</p> 
-            <p>In 2024, new features will be added and tested.</p>
+            <p>Running on HTTPS (SSL) secure connection on port 443.</p>
+            <p>Network testing, Postman, waterfall (loading ms)</p> 
+            <p>Lighthouse performance 90%</p>
+            <p>In 2025, new features will be added and tested.</p>
        
 
         <br /> 
@@ -73,7 +75,7 @@ export default function Home() {
 
     <article className='bg-slate-100 text-center mt-2'>
       <div className=""> 
-        <div className="flex bg-slate-300 px-2 py-2 shadow-lg justify-evenly item-center sm:text-left"> 
+        <div className="flex bg-slate-500 px-2 py-2 shadow-lg justify-evenly item-center sm:text-left"> 
           <a className='flex justify-center item-center hover:opacity-70' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
             <img className={reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
           </a>
@@ -88,7 +90,7 @@ export default function Home() {
         </div>               
         <p className='mb-2 p-10 leading-relaxed'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <br />
-        Powered by React/Nextjs and Tailwind. NodeJS(backend code) and MongoDB(database) software are in development.
+        Powered by React and Tailwind. Software in development.
         <br />
         Test Rendering: SSR (Server-Side Rending), CSR (Client-Side Rendering) and Rehydration.
         <br />
@@ -97,7 +99,7 @@ export default function Home() {
       </div>        
     </article>
     <div>
-      <img className='{bne}' src={bne} id="bne" alt="Brisbane Christmas sunset" height="" width="" />
+      <img className='{bne}' src={bne} id="bne" alt="Brisbane Christmas sunset. Chanda C M" height="" width="" />
     </div>
 
     <hr />
@@ -146,7 +148,7 @@ export default function Home() {
          {/* <UsernameForm />*/}
           
         </div>
-        <p className="p-2">Blog and Div page below due to routing/link testing.</p>
+        <p className="p-2">Blog and Div page, routing/link testing.</p>
       <a href='#top' className='text-sky-600  hover:text-blue-400'>Return to top</a>
     </article>
     </div>
